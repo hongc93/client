@@ -1,0 +1,100 @@
+@charset "utf-8";
+/*reset*/
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	font-size: 62.5%;
+}
+body {
+    background-color: transparent;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+}
+img {
+	border: none;
+	vertical-align: middle;
+	max-width: 100%;
+}
+a {
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+input, textarea, select, button {
+	outline: none;
+	vertical-align: middle;
+	font-size: inherit;
+	font-family: inherit;
+}
+textarea {
+	resize: none;
+	overflow-y: auto;
+}
+input[type="submit"], input[type="reset"], input[type="button"], button {
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+hr {
+	height: 0;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	margin: 0;
+	color: #ddd;
+}
+
+ul, ol, li {
+	list-style: none;
+	-webkit-padding-start: 0
+}
+dt, dd {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/*新样式*/
+body{
+	background-color: transparent;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+	overflow: scroll;
+    overflow-x: hidden;
+}
+.clearfix:after{
+	content:'';
+	display: block;
+	clear:both;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.pos_rel{
+	position:relative;
+}
+.container {
+	position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+#main {
+   overflow: hidden;
+    background-color: #fff;
+    padding: 30px 0;
+}

@@ -1,0 +1,71 @@
+@media all and (min-width: 4em) {
+	#inner {
+		width: 75em;
+		margin: 0 auto;
+	}
+	/*内容*/
+	.center {
+		width: 100%;
+		margin: 0 auto;
+		display: inline-block;
+		text-align: center;
+	}
+	/*正文内容*/
+	.fp_col_holder {
+		width: 900px;
+		margin: 0 auto;
+		text-align: justify;
+	}
+	.fp_col {
+		width: 26%;
+		font-size: 12px;
+		display: block;
+	}
+	.leftfloat {
+		display: block;
+		float: left;
+		margin-top: -1em;
+	}
+	.menu_item {
+		padding-left: 0.5em;
+		margin-bottom: 5px;
+		width: 100%;
+		-webkit-border-radius: 10px 0px 10px 0px;
+		-moz-border-radius: 10px 0px 10px 0px;
+		border-radius: 10px 0px 10px 0px;
+		-webkit-box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.75);
+		box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.75);
+	}
+	.menu_item:hover {
+		color: #A9A9A9;
+	}
+	.logo_img {
+		-webkit-box-shadow: 0 1px 2px 5px#888;
+		-moz-box-shadow: 0 1px 5px 2px #888;
+		box-shadow: 0 1px 5px 2px #888;
+		height: 40px;
+	}
+	.content_container {
+		float: right;
+		width: 66em;
+		padding-right: 4em;
+		padding-left: 4em;
+		font-size: 13px;
+		z-index: 0;
+		text-align: justify;
+		box-sizing: border-box;
+	}
+	.style2 {
+		margin-top: 1em;
+		margin-bottom: 0.1em;
+	}
+	.effect8 {
+		display: block;
+		margin: auto auto;
+		top: 0px;
+		left: 0px;
+		padding-bottom: 3em;
+		padding-top: 2em;
+	}
+}

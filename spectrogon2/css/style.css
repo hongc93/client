@@ -1,0 +1,312 @@
+.txt-wrap {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.logo {
+  margin-top: 30px;
+  background: url('../images/bg_stroke.png') repeat-x top center;
+}
+
+.header .mobileMenuBtn {
+  position: fixed;
+  right: 20px;
+  top: 30px;
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 100;
+  display: none;
+  transition: 0.4s all;
+  -webkit-transition: 0.4s all;
+}
+
+.header .mobileMenuBtn.active {
+  right: 220px;
+}
+
+.header .mobileMenuBtn span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  margin-bottom: 8px;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+}
+
+.header .mobileMenuBtn span:last-child {
+  margin: 0;
+}
+
+.header .mobileMenuBtn span:first-child,
+.header .mobileMenuBtn span:last-child {
+  transform-origin: 100% 50%;
+  -webkit-transform-origin: 100% 50%;
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+}
+
+.header .mobileMenuBtn.active span:first-child {
+  transform: rotate(-43deg);
+  -webkit-transform: rotate(-43deg);
+}
+
+.header .mobileMenuBtn.active span:last-child {
+  transform: rotate(43deg);
+  -webkit-transform: rotate(43deg);
+}
+
+.header .mobileMenuBtn span:nth-child(2) {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+}
+
+.header .mobileMenuBtn.active span:nth-child(2) {
+  transform: translateX(80px);
+  -webkit-transform: translateX(80px);
+  opacity: 0;
+}
+
+.nav {
+  padding-top: 30px;
+}
+
+.menu {
+  top: 0;
+  right: 0;
+}
+
+.nav li {
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  font-size: 16px;
+  padding-top: 20px;
+  margin-right: 20px;
+  line-height: 38px;
+}
+
+.nav li a {
+  color: #333;
+}
+
+.nav li.current,
+.nav li:hover {
+  color: #ed3f41;
+  border-bottom: 2px solid #aaa;
+}
+
+.nav li.current a,
+.nav li:hover a {
+  color: #ed3f41;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer p {
+  text-align: center
+}
+
+.footer p a {
+  color: #666;
+  font-size: 12px;
+}
+
+/*轮播*/
+.example-animation .info h3 {
+  font-size: 60px;
+}
+
+.example-animation .info p {
+  font-size: 26px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.example-animation .info2 h3 {
+  font-size: 50px;
+}
+
+.example-animation .info2 p {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.example-animation .info3 h3 {
+  font-size: 60px;
+}
+
+
+/*banner*/
+.banner {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.banner h1 {
+  line-height: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* 首页中心内容 */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gray-bg {
+  background: #e3e8ee;
+  box-shadow: 0 0 20px #666;
+  width: 100%;
+}
+
+.index-con {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.index-pro {
+  border-right: 1px solid #f51d30;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+
+.index-pro li {
+  margin-bottom: 20px;
+}
+
+.index-pro img {
+  float: left;
+
+}
+
+.index-pro .info {
+  float: left;
+
+}
+
+.index-pro h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.index-pro h3 a {
+  color: #f51d30;
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.index-pro .detail {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.index-about {
+  padding-left: 50px;
+}
+
+.index-about h3 {
+  font-size: 16px;
+  color: #f51d30;
+}
+
+.index-about .detail {
+  padding-top: 30px;
+}
+
+.index-about .detail p {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* 首页中心内容 */
+
+/* ================================ 关于我们 ================================ */
+.slider li {
+  background: url('../images/arrow.jpg') no-repeat left center;
+  padding-left: 20px;
+}
+
+.slider li:hover a,
+.slider li.current a {
+  color: #f51d30;
+}
+
+.page-content {
+  background: #fff;
+  margin-top: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.page-content {
+  font-size: 14px;
+  line-height: 28px;
+  color: #333;
+}
+
+.page-content h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.page-content .slider {
+  float: left;
+}
+
+.page-con-right {
+  border-left: 1px solid #f51d30;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: justify;
+}
+
+.about .detail div {
+  margin-top: 20px;
+
+}
+
+/* ================================ 新闻 ================================ */
+.newslist li:first-child h3 {
+  padding-top: 0;
+}
+
+.newslist h3 {
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.newslist h3 a:hover {
+  color: #f51d30;
+}
+
+.newslist p.time {
+  color: #999;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+
+/* =================================== 产品 ================================ */
+.product dl dt {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.product dl dd {
+  padding-left: 15px;
+  background: url('../images/disc.jpg') no-repeat left center;
+}
