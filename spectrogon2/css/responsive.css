@@ -1,5 +1,152 @@
-@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 1199px) {
+  .logo {
+    margin-top: 0;
+    background: none;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
 
-@media screen and (max-width:960px) {}
+  .logo a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
 
-@media screen and (max-width:767px) {}
+  .header .mobileMenuBtn {
+    display: block;
+  }
+
+  .header .mobileMenuBtn_shad {
+    width: 100%;
+    height: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    z-index: 98;
+  }
+
+  .header .mobileMenuBtn_shad.active {
+    height: 100%;
+  }
+
+  .header .header_menu {
+    width: 200px;
+    background: rgba(236, 36, 41, .8);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    right: -200px;
+    transition: 0.6s all;
+    -webkit-transition: 0.6s all;
+    z-index: 100;
+  }
+
+  .header .header_menu.active {
+    right: 0;
+  }
+
+  .header .header_menu ul {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header .header_menu ul li {
+    display: block;
+    width: 100%;
+    border-bottom: dashed 1px #cacaca;
+  }
+
+  .header .header_menu ul li a {
+    padding: 0;
+
+    line-height: normal;
+    padding: 12px 0;
+  }
+
+  .header .header_menu ul li:hover,
+  .header .header_menu ul li:active {
+    border: none;
+    border-bottom: solid 1px #cacaca;
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+
+  .nav li.current a,
+  .nav li:hover a {
+    color: #fff;
+  }
+
+  .header .md-show {
+    display: block;
+  }
+
+  .banner {
+    padding-top: 50px;
+
+  }
+
+  .index-pro {
+    padding-left: 20px;
+  }
+
+  .index-pro .info {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width:960px) {
+  .page-content .slider {
+    display: none;
+  }
+
+  .page-con-right {
+    border-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .banner h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .index-pro .detail {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .banner h1 {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 12px;
+  }
+
+  .banner p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .index-pro {
+    border-right: 0;
+    padding-right: 20px;
+    border-bottom: 1px solid #f51d30;
+  }
+
+  .index-pro h3 a {
+    font-size: 14px;
+  }
+
+  .index-about h3 {
+    margin-top: 30px;
+  }
+}

@@ -12,7 +12,7 @@
 .header .mobileMenuBtn {
   position: fixed;
   right: 20px;
-  top: 30px;
+  top: 16px;
   width: 30px;
   text-align: center;
   cursor: pointer;
@@ -30,7 +30,7 @@
   display: block;
   width: 100%;
   height: 3px;
-  background: #fff;
+  background: #f51d30;
   margin-bottom: 8px;
   transition: 0.3s all;
   -webkit-transition: 0.3s all;
@@ -148,12 +148,17 @@
 .banner {
   max-width: 1200px;
   margin: 40px auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .banner h1 {
   line-height: 50px;
   padding-top: 20px;
   padding-bottom: 30px;
+  font-size: 30px;
+  padding-right: 50px;
+
 }
 
 /* 首页中心内容 */
@@ -181,6 +186,12 @@
 
 .index-pro li {
   margin-bottom: 20px;
+  display: inline-block;
+  margin: 20px 10px;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
 }
 
 .index-pro img {
@@ -270,8 +281,18 @@
 .page-con-right {
   border-left: 1px solid #f51d30;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 0 40px 40px;
   text-align: justify;
+}
+
+.bread {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.bread a:hover,
+.bread a.current {
+  color: #f51d30;
 }
 
 .about .detail div {
