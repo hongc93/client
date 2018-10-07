@@ -114,6 +114,8 @@
     padding: 0;
   }
 
+
+
   .banner h1 {
     font-size: 24px;
     line-height: 30px;
@@ -121,6 +123,11 @@
 
   .index-pro .detail {
     font-size: 12px;
+  }
+
+  .about,
+  .contact {
+    margin-top: 30px;
   }
 }
 
@@ -149,4 +156,6 @@
   .index-about h3 {
     margin-top: 30px;
   }
+
+
 }
