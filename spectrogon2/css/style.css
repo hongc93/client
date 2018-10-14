@@ -238,7 +238,9 @@
 .index-about .detail p {
   font-size: 14px;
   line-height: 28px;
-  text-align: center;
+  text-align: left;
+  text-indent: 2em;
+  margin-bottom: 5px;
 }
 
 /* 首页中心内容 */
@@ -330,4 +332,8 @@
 .product dl dd {
   padding-left: 15px;
   background: url('../images/disc.jpg') no-repeat left center;
+}
+
+.product dl dd a:hover {
+  text-decoration: underline;
 }
