@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.red {
+  color: #f51d30;
+}
+
 .logo {
   margin-top: 30px;
   background: url('../images/bg_stroke.png') repeat-x top center;
@@ -336,4 +340,46 @@
 
 .product dl dd a:hover {
   text-decoration: underline;
+}
+
+
+.entry-content,
+.entry-summary {
+  clear: both;
+  padding: 0 0 0 0;
+}
+
+.spectrogon_table {
+  font-size: 11px;
+  text-align: left;
+}
+
+.spectrogon_header {
+  display: block;
+  width: 620px !important;
+  background: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.spectrogon_table tr td {
+  padding: 0 0 0 5px;
+  text-align: left;
+}
+
+.spectrogon_table tr th {
+  min-width: 30px;
+  padding: 0 0 0 5px;
+  text-align: left;
+  background: white;
+  width: 60px;
+}
+
+#topTR.active th#head9 {
+  display: none;
+}
+
+.page-id-234 #topTR.active th#head8,
+.page-id-316 #topTR.active th#head8,
+.page-id-376 #topTR.active th#head8 {
+  display: none;
 }

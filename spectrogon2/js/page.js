@@ -14,6 +14,10 @@ $(window).scroll(function () {
   } else {
     $(".header").removeClass("header_scroll");
   }
+  console.log($('.spectrogon_table').offsetTop);
+  if ($('.spectrogon_table').scrollTop() > 0) {
+    alert(33)
+  }
 });
 
 //add class 解决方案2
